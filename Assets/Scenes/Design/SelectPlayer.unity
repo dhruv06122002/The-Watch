@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 814024689}
   - component: {fileID: 814024688}
   m_Layer: 5
-  m_Name: Present
+  m_Name: Player 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,7 +875,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 814024689}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1048058765}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Player2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &814024689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1023,7 +1035,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1048058762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d93d6944a55d3148b12b5493d7addce, type: 3}
+  m_Script: {fileID: 11500000, guid: 160bc6e9628153044a5a43e14bbc9fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1309370119
@@ -1039,7 +1051,7 @@ GameObject:
   - component: {fileID: 1309370122}
   - component: {fileID: 1309370121}
   m_Layer: 5
-  m_Name: Past
+  m_Name: Player 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1109,7 +1121,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1309370122}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1048058765}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Player1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1309370122
 MonoBehaviour:
   m_ObjectHideFlags: 0

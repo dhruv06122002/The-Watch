@@ -922,8 +922,8 @@ MonoBehaviour:
   - Both the scientist decide to work together on the timetravel project...
   - As the connection is stable , Communicate with each other and solve the issues
     regarding Time travel watch.....
-  timeBtwnChars: 0.1
-  timeBtwnWords: 0.4
+  timeBtwnChars: 0.05
+  timeBtwnWords: 0.2
 --- !u!114 &1431775214
 MonoBehaviour:
   m_ObjectHideFlags: 0

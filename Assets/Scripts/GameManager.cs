@@ -17,6 +17,16 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void Player1()
+    {
+        SceneManager.LoadScene("P1_One");
+    }
+
+    public void Player2()
+    {
+        SceneManager.LoadScene("P2_One");
+    }
+
     public void Play()
     {
         SceneManager.LoadScene("Game");
