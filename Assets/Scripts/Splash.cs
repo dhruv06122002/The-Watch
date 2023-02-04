@@ -8,7 +8,7 @@ public class Splash : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("startpage", 6.0f);
+        Invoke("startpage", 12.0f);
     }
 
     // Update is called once per frame
