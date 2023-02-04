@@ -32,6 +32,6 @@ public class GameManager : MonoBehaviour
 
     public void Selectplayer()
     {
-        SceneManager.LoadScene("Player");
+        SceneManager.LoadScene("SelectPlayer");
     }
 }

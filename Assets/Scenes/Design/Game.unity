@@ -525,14 +525,14 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7176471, g: 0.5647059, b: 0.5647059, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 3.27, y: 3.27}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &764775749
@@ -914,16 +914,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1431775214}
   stringArray:
-  - 'Scientist Aryan Sharma, was working on a Time travel project  project '
+  - Scientist Aryan Sharma, was working on a Time travel project,
   - After years or research and work he finally succeed but rather getting connection
     established to Past something went wrong
-  - The concept of Multiverse was discovered , all the connections were connected
-    to the varient of Scientist Aryan Sharma from other dimension
-  - The connection between both the dimensions is Strong...
-  - Communicate with varient Aryan sharma and solve the issues regarding Time travel
-    watch
+  - Connection frequency was wierd ,On other side of the call there was Scientist
+    Aryan Sharma from other dimension.
+  - Both the scientist decide to work together on the timetravel project...
+  - As the connection is stable , Communicate with each other and solve the issues
+    regarding Time travel watch.....
   timeBtwnChars: 0.1
-  timeBtwnWords: 0.5
+  timeBtwnWords: 0.4
 --- !u!114 &1431775214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,14 +946,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 39c2ae15c25855a469a8863fc094e683, type: 2}
-  m_sharedMaterial: {fileID: 6376882877277832379, guid: 39c2ae15c25855a469a8863fc094e683, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 366cf194e4ecd8d4e8f38c0ffe1155e0, type: 2}
+  m_sharedMaterial: {fileID: 3579134464961068471, guid: 366cf194e4ecd8d4e8f38c0ffe1155e0, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4287664311
   m_fontColor: {r: 0.7176471, g: 0.5647059, b: 0.5647059, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -976,7 +976,7 @@ MonoBehaviour:
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 160
+  m_fontSizeMax: 110
   m_fontStyle: 2
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512

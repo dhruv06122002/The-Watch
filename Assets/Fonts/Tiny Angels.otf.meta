@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 0db1332cd1011874bb85d9e579258292
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Tiny Angels
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 64d13c27fe32e854fbb60ddea3d9ad03, type: 3}
+  - {fileID: 12800000, guid: a8ceac73a8c439e408865e02349ae92e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
