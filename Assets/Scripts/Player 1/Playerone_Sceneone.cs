@@ -11,7 +11,9 @@ public class Playerone_Sceneone : MonoBehaviour
     public GameObject LampOff;
     public GameObject WatchOff;
     public GameObject Watchback;
+    public GameObject Watchbackwithcell;
     public GameObject WatchOn;
+    private bool flag;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class Playerone_Sceneone : MonoBehaviour
         WatchOff.SetActive(true);
         Watchback.SetActive(false);
         WatchOn.SetActive(false);
+        flag = false;
     }
 
     // Update is called once per frame
@@ -35,6 +38,7 @@ public class Playerone_Sceneone : MonoBehaviour
         Cell.SetActive(true);
         LampOff.SetActive(true);
         LampOn.SetActive(false);
+        flag = true;
     }
         
     public void Delay()
@@ -44,8 +48,40 @@ public class Playerone_Sceneone : MonoBehaviour
 
     public void WatchIsOff()
     {
-        Cell.SetActive(true);
-        WatchOff.SetActive(false);
-        Watchback.SetActive(true);
+        if(flag == true)
+        {
+            Debug.Log("Screen is turned");
+            Cell.SetActive(true);
+            WatchOff.SetActive(false);
+            Watchback.SetActive(true);
+            flag = false;
+        }
+    }
+
+    public void WatchCellInserted()
+    {
+        if (flag == false)
+        {
+            Debug.Log("Cell is Inserted");
+            Cell.SetActive(false);
+            WatchOff.SetActive(false);
+            Watchback.SetActive(false);
+            Watchbackwithcell.SetActive(true);
+            flag = true;
+        }
+    }
+
+    public void WatchIsOn()
+    {
+        if (flag == true)
+        {
+            Debug.Log("Watch is On");
+            Cell.SetActive(false);
+            WatchOff.SetActive(false);
+            Watchback.SetActive(false);
+            Watchbackwithcell.SetActive(false);
+            WatchOn.SetActive(true);
+            flag = false;
+        }
     }
 }
